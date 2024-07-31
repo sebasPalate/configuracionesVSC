@@ -1,0 +1,54 @@
+{
+    // Muestra las flechas de despliegue en el explorador de archivos.
+    "symbols.hidesExplorerArrows": false,
+    // Coloca la barra lateral en el lado derecho de la ventana de trabajo.
+    "workbench.sideBar.location": "right",
+    // Establece el tema de color "Ayu Dark Bordered" para el área de trabajo.
+    "workbench.colorTheme": "Ayu Mirage",
+    // Usa las fuentes "Dank Mono" y "Cascadia Code PL" en el editor.
+    "editor.fontFamily": "Dank Mono, Cascadia Code PL",
+    // Habilita ligaduras en las fuentes del editor.
+    "editor.fontLigatures": true,
+    // Hace que el cursor se expanda mientras parpadea.
+    "editor.cursorBlinking": "expand",
+    // Activa la animación suave del cursor.
+    "editor.cursorSmoothCaretAnimation": "on",
+    // Muestra guías para los pares de corchetes.
+    "editor.guides.bracketPairs": true,
+    // Usa un grupo de colores independiente para cada tipo de par de corchetes.
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    // Resalta el par de corchetes activo.
+    "editor.guides.highlightActiveBracketPair": true,
+    // Habilita el desplazamiento pegajoso.
+    "editor.stickyScroll.enabled": true,
+    // Siempre actualiza las importaciones en JavaScript al mover archivos.
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    // Establece el tema de íconos "symbols" para el área de trabajo.
+    "workbench.iconTheme": "symbols",
+    // Configura las variables de entorno para el terminal integrado en Windows.
+    "terminal.integrated.env.windows": {},
+    // Usa la fuente "Dank Mono" en el terminal integrado.
+    "terminal.integrated.fontFamily": "Dank Mono",
+    // Guarda automáticamente los archivos después de un breve retraso.
+    "files.autoSave": "afterDelay",
+    // Establece el tema de íconos de producto "fluent-icons".
+    "workbench.productIconTheme": "fluent-icons",
+    // Desactiva la minimapa en el editor.
+    "editor.minimap.enabled": false,
+    // Oculta la barra de desplazamiento vertical.
+    "editor.scrollbar.vertical": "hidden",
+    // Oculta la barra de desplazamiento horizontal.
+    "editor.scrollbar.horizontal": "hidden",
+    // Desactiva el borde de la regla de vista general.
+    "editor.overviewRulerBorder": false,
+    // Muestra el cursor en la regla de vista general.
+    "editor.hideCursorInOverviewRuler": false,
+    // Formatea el código automáticamente al guardar.
+    "editor.formatOnSave": true,
+    // Desactiva las migas de pan (breadcrumbs).
+    "breadcrumbs.enabled": false,
+    // Desactiva el margen de glifos en el editor.
+    "editor.glyphMargin": false,
+    // Habilita la edición vinculada para los archivos.
+    "editor.linkedEditing": true
+}
