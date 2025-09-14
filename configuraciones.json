@@ -1,54 +1,78 @@
 {
+    /* 🧠 Copilot */
+    // Habilita sugerencias automáticas de Copilot después de cada edición.
+    "github.copilot.nextEditSuggestions.enabled": true,
+
+    /* 🖥️ Interfaz de usuario */
+    // Establece el tema de color del editor.
+    "workbench.colorTheme": "One Dark Pro Mix",
+    // Establece el tema de íconos del explorador de archivos.
+    "workbench.iconTheme": "symbols",
+    // Establece el tema de íconos del producto (barra de actividad, etc.).
+    "workbench.productIconTheme": "fluent-icons",
+    // Coloca la barra lateral en el lado derecho.
+    "workbench.sideBar.location": "right",
     // Muestra las flechas de despliegue en el explorador de archivos.
     "symbols.hidesExplorerArrows": false,
-    // Coloca la barra lateral en el lado derecho de la ventana de trabajo.
-    "workbench.sideBar.location": "right",
-    // Establece el tema de color "Ayu Dark Bordered" para el área de trabajo.
-    "workbench.colorTheme": "Ayu Mirage",
+
+    /* 📝 Editor de código */
     // Usa las fuentes "Dank Mono" y "Cascadia Code PL" en el editor.
     "editor.fontFamily": "Dank Mono, Cascadia Code PL",
-    // Habilita ligaduras en las fuentes del editor.
+    // Habilita ligaduras tipográficas en el editor.
     "editor.fontLigatures": true,
-    // Hace que el cursor se expanda mientras parpadea.
+    // Estilo de parpadeo del cursor: expansión.
     "editor.cursorBlinking": "expand",
-    // Activa la animación suave del cursor.
+    // Habilita animaciones suaves del cursor.
     "editor.cursorSmoothCaretAnimation": "on",
-    // Muestra guías para los pares de corchetes.
-    "editor.guides.bracketPairs": true,
-    // Usa un grupo de colores independiente para cada tipo de par de corchetes.
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    // Resalta el par de corchetes activo.
-    "editor.guides.highlightActiveBracketPair": true,
-    // Habilita el desplazamiento pegajoso.
-    "editor.stickyScroll.enabled": true,
-    // Siempre actualiza las importaciones en JavaScript al mover archivos.
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    // Establece el tema de íconos "symbols" para el área de trabajo.
-    "workbench.iconTheme": "symbols",
-    // Configura las variables de entorno para el terminal integrado en Windows.
-    "terminal.integrated.env.windows": {},
-    // Usa la fuente "Dank Mono" en el terminal integrado.
-    "terminal.integrated.fontFamily": "Dank Mono",
-    // Guarda automáticamente los archivos después de un breve retraso.
-    "files.autoSave": "afterDelay",
-    // Establece el tema de íconos de producto "fluent-icons".
-    "workbench.productIconTheme": "fluent-icons",
-    // Desactiva la minimapa en el editor.
+    // Formatea el código automáticamente al guardar.
+    "editor.formatOnSave": true,
+    // Desactiva las migas de pan (breadcrumbs).
+    "breadcrumbs.enabled": false,
+    // Oculta el minimapa.
     "editor.minimap.enabled": false,
     // Oculta la barra de desplazamiento vertical.
     "editor.scrollbar.vertical": "hidden",
     // Oculta la barra de desplazamiento horizontal.
     "editor.scrollbar.horizontal": "hidden",
-    // Desactiva el borde de la regla de vista general.
+    // Elimina el borde de la regla de vista general.
     "editor.overviewRulerBorder": false,
-    // Muestra el cursor en la regla de vista general.
-    "editor.hideCursorInOverviewRuler": false,
-    // Formatea el código automáticamente al guardar.
-    "editor.formatOnSave": true,
-    // Desactiva las migas de pan (breadcrumbs).
-    "breadcrumbs.enabled": false,
-    // Desactiva el margen de glifos en el editor.
+    // Oculta el cursor en la regla de vista general.
+    "editor.hideCursorInOverviewRuler": true,
+    // Desactiva el margen de glifos (como los íconos de breakpoint).
     "editor.glyphMargin": false,
-    // Habilita la edición vinculada para los archivos.
-    "editor.linkedEditing": true
+    // Habilita edición vinculada (útil para renombrar etiquetas HTML, por ejemplo).
+    "editor.linkedEditing": true,
+    // Desactiva la coincidencia de corchetes.
+    "editor.matchBrackets": "never",
+    // Habilita el scroll sticky para mantener visibles encabezados de bloques.
+    "editor.stickyScroll.enabled": true,
+    // Muestra guías visuales para pares de corchetes.
+    "editor.guides.bracketPairs": true,
+    // Usa diferentes colores por tipo de par de corchetes.
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    // Resalta visualmente el par de corchetes activo.
+    "editor.guides.highlightActiveBracketPair": true,
+    // Desactiva las guías de indentación.
+    "editor.guides.indentation": false,
+
+    /* 📂 Archivos */
+    // Guarda automáticamente los archivos después de un pequeño retraso.
+    "files.autoSave": "afterDelay",
+
+    /* 🔤 JavaScript / TypeScript */
+    // Siempre actualiza automáticamente las importaciones al mover archivos.
+    "javascript.updateImportsOnFileMove.enabled": "always",
+
+    /* 🧲 Terminal */
+    // Usa Git Bash como terminal predeterminado en Windows.
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    // Establece la fuente del terminal a "Dank Mono".
+    "terminal.integrated.fontFamily": "Dank Mono",
+    // Variables de entorno personalizadas para terminal en Windows (vacío por ahora).
+    "terminal.integrated.env.windows": {},
+
+    /* 📏 Extensiones / Plugins personalizados */
+    // Configuración del plugin "indenticator" (guía visual de indentación).
+    "indenticator.width": 1,
+    "indenticator.color.dark": "rgba(255, 255, 255, 0.1)",
 }
